@@ -1,7 +1,7 @@
 # Crane Game (Unity)
 
-Unity で制作したクレーンゲームのシミュレーションです。  
-物理演算（Rigidbody / HingeJoint）を用いて、アーケード筐体の挙動を再現しています。
+Unity で制作したクレーンゲームのシミュレーション。
+物理演算（Rigidbody / HingeJoint）を用いて、アーケード筐体の挙動を再現。
 
 ## 🎮 概要
 - 開発環境：Unity（2022 以降想定）
@@ -17,12 +17,12 @@ Unity で制作したクレーンゲームのシミュレーションです。
 ※ Finger は Non-Kinematic Rigidbody + HingeJoint
 
 ## ✨ 工夫した点
-- 爪の開閉・把持を **物理演算ベース**で実装
-- 景品の滑りやすさを **Physic Material** で調整
-- 操作性と安定性のバランス調整（Joint / Mass / Drag）
+- 爪の開閉・保持を **物理演算ベース**で実装
+- 景品、床の摩擦を **Physic Material** で調整
 
 ## ▶ 操作方法
-- 移動：キーボード or ゲームパッド（Input System）
+- 水平移動：矢印キー
+- 上下移動： Q(上) / A(下)
 - 決定：ボタン入力で下降 → 掴み → 上昇
 
 ## 📸 スクリーンショット
